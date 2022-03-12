@@ -26,7 +26,8 @@ author:
 #twitter_username: Towlette_Pettetucci
 #github_username: Towlette_Pettetucci
 linkedin: sergioromerollanos
-logo: /assets/icons/basically-basic-logo-light.svg
+#logo: /assets/icons/basically-basic-logo-light.svg
+logo: /assets/icons/milogo.svg
 search: true
 search_full_content: true
 search_provider: algolia
