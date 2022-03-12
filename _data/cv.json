@@ -6,9 +6,9 @@
     "email": "sergio.romero.llanos@gmail.com",
     #"phone": "(555) 555-5555",
     "website": "https://romerols.github.io",
-    "summary": "Nash is well versed in the Montoyan / Artesian Connection, preparation of grasshopper mash, and baking of grover loaves.",
+    #"summary": "Nash is well versed in the Montoyan / Artesian Connection, preparation of grasshopper mash, and baking of grover loaves.",
     "location": {
-      "address": "123 Sesame Street",
+      #"address": "123 Sesame Street",
       "postalCode": "28350",
       "city": "Ciempozuelos",
       "countryCode": "ES",
