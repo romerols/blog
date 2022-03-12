@@ -20,7 +20,7 @@ description: "Sergio Romero Llanos"
 baseurl: "/blog"  # the subpath of your site, e.g. /blog
 url: "https://romerols.github.io"  # the base hostname & protocol for your site, e.g. http://example.com
 author:
-  name: Sergio Romeroo
+  name: Sergio Romero
   #twitter: Towlette_Pettetucci
   picture: /assets/images/amine-ounnas-180287.jpg
 #twitter_username: Towlette_Pettetucci
