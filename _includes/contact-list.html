@@ -1,4 +1,9 @@
 <ul class="contact-list">
+
+  {% if site.linkedin %}
+    <li>{% include icon-linkedin.html username=site.linkedin label='Linkedin' %}</li>
+  {% endif %}
+
   {% if site.email %}
     <li>
       <a href="mailto:{{ site.email }}">
