@@ -2,7 +2,7 @@
   "basics": {
     "name": "Sergio Romero Llanos",
     "label": "IT Project Manager",
-    "picture": {{ site.foto }},
+    "picture": "",
     "email": "sergio.romero.llanos@gmail.com",
     #"phone": "(555) 555-5555",
     "website": "https://romerols.github.io",

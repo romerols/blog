@@ -5,6 +5,10 @@
       {% if cv.basics.label %}
         <p class="intro-subtitle">{{ cv.basics.label | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       {% endif %}
+	  
+	  {% if site.foto %}
+		<img src="assets/images/foto.jpg" styele="width:300px;height:300px;border-radius:150px;"/>
+      {% endif %}
 
       {% if page.actions %}
         <ul class="intro-actions">
