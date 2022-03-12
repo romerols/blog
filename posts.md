@@ -2,5 +2,5 @@
 title: Posts
 layout: posts
 permalink: /posts/
-entries_layout: grid
+entries_layout: list
 ---
