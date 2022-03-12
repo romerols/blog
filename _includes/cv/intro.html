@@ -5,12 +5,16 @@
 	  
 	  {{ cv.basics.name | default: page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
 	  
-	  {% if site.foto %}
-		<img src="assets/images/foto.jpg" style="width:150px;height:150px;border-radius:150px;border-radius:150px;border:5px solid #fff;"/>
-      {% endif %}
-	  
 	  {% if cv.basics.label %}
-        <p class="intro-subtitle">{{ cv.basics.label | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        <p class="intro-subtitle">
+		
+		{% if site.foto %}
+		<img src="assets/images/foto.jpg" style="width:150px;height:150px;border-radius:150px;border-radius:150px;border:5px solid #fff;"/>
+        {% endif %}
+		
+		{{ cv.basics.label | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+		
+		
       {% endif %}
 
       {% if page.actions %}
