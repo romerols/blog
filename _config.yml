@@ -21,11 +21,11 @@ baseurl: "/blog"  # the subpath of your site, e.g. /blog
 url: "https://romerols.github.io"  # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Sergio Romero
-  linkedin: sergioromerollanos
   #twitter: Towlette_Pettetucci
   picture: /assets/images/johndoe.png
 #twitter_username: Towlette_Pettetucci
 #github_username: Towlette_Pettetucci
+linkedin: sergioromerollanos
 logo: /assets/icons/basically-basic-logo-light.svg
 search: true
 search_full_content: true
