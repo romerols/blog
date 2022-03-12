@@ -3,7 +3,7 @@
     <div class="intro-text">
       
 	  {% if site.foto %}
-		<img src="assets/images/foto.jpg" style="width:150px;height:150px;border-radius:150px;border-radius:150px;border:5px solid #fff;"/></br>
+		<img src={{ site.foto }} style="width:150px;height:150px;border-radius:150px;border-radius:150px;border:5px solid #fff;"/></br>
       {% endif %}
 	  
 	  <h1 class="intro-title">{{ cv.basics.name | default: page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
