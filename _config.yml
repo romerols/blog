@@ -16,7 +16,7 @@
 lang: es-ES
 title: Blog
 email: sergio.romero.llanos@gmail.com
-description: "Blog"
+description: "Sergio Romero Llanos"
 baseurl: "/blog"  # the subpath of your site, e.g. /blog
 url: "https://romerols.github.io"  # the base hostname & protocol for your site, e.g. http://example.com
 author:
